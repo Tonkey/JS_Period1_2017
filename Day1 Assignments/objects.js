@@ -2,7 +2,9 @@
 //if you want to see the result of a specific assignment, incomment the console.log() for that assignment
 
 //Assignment 1
+// var aPerson = {name: "testing", age: 20, hobby: "something", email: "test@test.com"}
 var aPerson = {name: "testing", age: 20, hobby: "something", email: "test@test.com"}
+
 
 //for (var element in object) basically works like a foreach, since object by themselves do not support a direct .foreach function.
 //the below function also shows the use of hasOwnProperty
@@ -11,7 +13,8 @@ for (var data in aPerson) {
         //checks if the object has a property under the name placed in data.
         continue
     }
-    // console.log(data + ' : ' + aPerson[data])
+
+    console.log(data + ' : ' + aPerson[data])
 }
 
 //deleting a property and printing again to show that the property is in fact deleted.
